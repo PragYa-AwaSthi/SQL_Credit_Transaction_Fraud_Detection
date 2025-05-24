@@ -1,0 +1,27 @@
+--Here are theory and technical questions that could be asked based on your SQL fraud detection script:
+
+**Theory Questions:**
+
+    1.  What is credit card fraud detection, and why is it important?
+    2.  What are common patterns of fraudulent transactions?
+    3.  What challenges arise in detecting financial fraud?
+    4.  How can location and timing help detect fraud?
+    5.  What is the significance of tracking average spending behavior?
+    6.  Why might someone use multiple small transactions in fraud?
+    7.  What is the difference between real-time and batch fraud detection?
+    8.  How do false positives affect fraud detection systems?
+    9.  How could machine learning improve upon SQL-based fraud detection?
+    10.  What are ethical concerns when monitoring user behavior for fraud?
+
+**Technical SQL Questions:**
+
+    1.  Explain the purpose of each table (cardholders, merchants, transactions).
+    2.  How do you use FOREIGN KEY constraints in the schema and why?
+    3.  How is the is_fraudulent flag used in fraud detection queries?
+    4.  Write a query to find the top 5 highest transactions by amount.
+    5.  How would you detect geographic inconsistency in transactions?
+    6.  Explain the use of TO_DATE and why date format matters.
+    7.  How does the average transaction value help identify outliers?
+    8.  How would you optimize queries for large datasets?
+    9.  How can you find duplicate or repeated transactions?
+    10.  Write a query to show all transactions within 10 minutes of each other for the same cardholder.
